@@ -22,7 +22,7 @@ from setuptools import find_packages
 from setuptools import setup
 
 
-REQUIRED_PACKAGES = ['numpy', 'dm-sonnet==1.36', 'tensorflow==1.14',
+REQUIRED_PACKAGES = ['numpy', 'dm-sonnet==1.36', 'tensorflow==2.5.0',
                      'tensor2tensor==1.15', 'networkx', 'matplotlib', 'six']
 
 setup(
